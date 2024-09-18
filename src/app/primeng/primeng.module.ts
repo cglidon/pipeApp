@@ -8,8 +8,10 @@ import { CheckboxModule } from 'primeng/checkbox';
 import { ChipsModule } from 'primeng/chips';
 import { ColorPickerModule } from 'primeng/colorpicker';
 import { DropdownModule } from 'primeng/dropdown';
-import { MenuModule } from 'primeng/menu';
+import { PanelModule } from 'primeng/panel';
 import { MenubarModule } from 'primeng/menubar';
+import { CardModule } from 'primeng/card';
+import { FieldsetModule } from 'primeng/fieldset';
 
 @NgModule({
   declarations: [],
@@ -17,26 +19,30 @@ import { MenubarModule } from 'primeng/menubar';
     CommonModule,
     AutoCompleteModule,
     ButtonModule,
+    CardModule,
     CalendarModule,
     CascadeSelectModule,
     CheckboxModule,
     ChipsModule,
     ColorPickerModule,
     DropdownModule,
-    MenuModule,
-    MenubarModule
+    MenubarModule,
+    FieldsetModule,
+    PanelModule,
   ],
   exports:[
     AutoCompleteModule,
     ButtonModule,
+    CardModule,
     CalendarModule,
     CascadeSelectModule,
     CheckboxModule,
     ChipsModule,
     ColorPickerModule,
     DropdownModule,
-    MenuModule,
-    MenubarModule
+    MenubarModule,
+    FieldsetModule,
+    PanelModule,
   ]
 })
 export class PrimengModule { }
